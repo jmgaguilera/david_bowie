@@ -1,0 +1,5 @@
+library(rmarkdown)
+render("david_bowie.R", output_options = list(self_contained=F, results="asis"), clean=F)
+file.copy("david_bowie.utf8.md", "../../jmgaguilera.github.io/_posts/2016-01-24-david-bowie.markdown", overwrite=T)
+fich = list.files("david_bowie_files/figure-html/", full.names = T)
+file.copy(from=fich, to="../../jmgaguilera.github.io/images/david_bowie_files/figure-html/", overwrite=T)
