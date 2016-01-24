@@ -41,7 +41,7 @@ load("songs.Rda")
 #' 
 #' 
 #' Este fin de semana, mientras escuchaba el disco _Blackstar_ he querido hacer mi pequeño 
-#' homenaje con este análisis de sus letras.
+#' homenaje con este breve análisis de sus letras.
 #' 
 #' # Los datos
 #' 
@@ -141,7 +141,7 @@ wordcloud(names(v), v, min.freq=3, random.order = F, colors=brewer.pal(9,"Reds")
 #' 
 #' # Las palabras a través de los años
 #' 
-#' Vay a mostrar ahora algunas palabras importantes en sus letras y 
+#' Voy a mostrar ahora algunas palabras importantes en sus letras y 
 #' su frecuencia a lo largo de los años: god, love, time, star, live & die
 #' 
 #' ## God & Love
@@ -183,7 +183,7 @@ ggplot(data=gg_datos,
 #' |                              *Time*
 #' |
 #' |    There's a starman waiting in the sky
-#' |    He's told us not to blow i
+#' |    He's told us not to blow it
 #' |    'Cause he knows it's all worthwhile
 #' |                                  *Starman*
 #' |
@@ -262,4 +262,4 @@ ggplot(data=gg_datos,
 #' 
 #' # Referencias
 #' 
-#' El documento R (rmarkdown) reproducir este análisis puede encontrarse en [este enlace](http://github.com/jmgaguilera/david_bowie)
+#' El documento R (rmarkdown) para reproducir este análisis puede encontrarse en [este enlace](http://github.com/jmgaguilera/david_bowie)
